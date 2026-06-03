@@ -40,13 +40,11 @@ print(rtask.get_summary())
 
 ### 7.1 코드 스타일(pycodestyle) 검사 결과
 경고 없음(0건)
+![pystyle](pycode.png)
 
 ### 7.2 단위 테스트(pytest) 실행 결과
-========================= test session starts =========================
-platform darwin -- Python 3.13.5, pytest-9.0.3, pluggy-1.6.0
-rootdir: /Users/talseng/Desktop/todo_project
-collected 8 items
+![pytest 결과](pytest.png)
 
-tests/test_core.py ........                                     [100%]
-
-========================== 8 passed in 0.02s ==========================
+### 7.3 테스트 커버리지 (pytest-cov) 결과
+모든 핵심 로직에 대해 100%에 준하는 테스트 커버리지를 달성.
+![커버리지 결과](coverage.png)
