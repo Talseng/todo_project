@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: todo_manager
+Version: 0.1.0
+Summary: Python 객체지향 기반 할 일 관리 패키지
+Author: 김승찬
+Requires-Dist: pytest>=7.0.0
+Requires-Dist: pycodestyle>=2.10.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
