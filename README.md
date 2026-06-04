@@ -41,6 +41,7 @@ print("할 일 목록이 my_tasks.json 파일로 저장되었습니다.")
 ## 6. 작성자 정보
 * 이름: 김승찬
 * 소속: 건국대학교 글로컬캠퍼스 컴퓨터공학과
+* GitHub: https://github.com/Talseng/todo_project
 
 ## 7. 실행 결과
 
