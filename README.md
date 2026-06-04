@@ -14,16 +14,16 @@ from todo_manager.subclass import RecurringTask
 from todo_manager.utils import save_tasks_to_json
 
 # 1. 일반 할 일 생성 및 완료 (우선순위, 태그 추가)
-task = Task("파이썬 기말 과제", "2026-06-10", priority="High", tags=["과제", "전공"])
+task = Task("파이썬 기말 과제", "2026-06-22", priority="High", tags=["과제", "전공"])
 task.complete()
 print(task.get_summary())
 
 # 2. 반복 할 일 생성 및 완료
-rtask = RecurringTask("매일 알고리즘 풀기", recurrence_rule="daily")
+rtask = RecurringTask("매일 토익 풀기", recurrence_rule="daily")
 rtask.complete()
 print(rtask.get_summary())
 
-# 3. JSON 파일로 데이터 저장 (새로 추가된 핵심 기능!)
+# 3. JSON 파일로 데이터 저장
 save_tasks_to_json([task, rtask], "my_tasks.json")
 print("할 일 목록이 my_tasks.json 파일로 저장되었습니다.")
 ```
