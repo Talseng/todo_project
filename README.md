@@ -47,5 +47,5 @@ print(rtask.get_summary())
 ![pytest 결과](pytest.png)
 
 ### 7.3 테스트 커버리지 (pytest-cov) 결과
-모든 핵심 로직에 대해 100%에 준하는 테스트 커버리지를 달성.
+모든 핵심 로직에 대해 90% 이상의 테스트 커버리지를 달성.
 ![커버리지 결과](coverage.png)
